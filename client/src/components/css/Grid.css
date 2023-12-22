@@ -1,0 +1,36 @@
+.grid {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .grid th, .grid td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .grid th {
+    background-color: #424242;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .grid tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .grid tr:hover {
+    background-color: #ddd;
+  }
+  
+  .grid td span {
+    margin-right: 5px;
+  }
+
+  caption {
+    caption-side: block-start; 
+    font-size: 1em; 
+    font-weight: bold;
+    padding: 10px; 
+    color: #333; 
+  }
